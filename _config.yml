@@ -18,19 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ENG1 - Team 10
-email: 2020-eng1-team10-group@york.ac.uk
-description: This is the management website for team "Hard G for GIFs" ENG1 project!
-logo: "https://avatars2.githubusercontent.com/u/72558606"
+title: ENG1 - Team 20
+description: This is the management website for team "Tequila mockingbird" ENG1 project!
+logo: "logo.png"
 
 search_enabled: true
 
-baseurl: "https://github.com/LucasAxnix/websitetest.github.io" # the subpath of your site, e.g. /blog
-url: "https://github.com/LucasAxnix/websitetest.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/PROJECT" # the subpath of your site, e.g. /blog
+url: "https://lucasaxnix.github.io/tequilamockingbird.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Footer content
 # appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2020 Hard G for GIFs.</a>"
+footer_content: ""
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -39,7 +38,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/LucasAxnix/websitetest.github.io" # the github URL for your repo
+gh_edit_repository: "https://github.com/LucasAxnix/tequilamockingbird.github.io" # the github URL for your repo
 gh_edit_branch: "master" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
@@ -65,3 +64,4 @@ remote_theme: pmarsceill/just-the-docs
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+theme: jekyll-theme-minimal
